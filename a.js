@@ -1,6 +1,6 @@
 // @flow
 
-const AMixin = (superclass: Class<*>): Class<*> => class extends superclass {
+const AMixin = (superclass: *): * => class extends superclass {
     aMethod() {}
 };
 

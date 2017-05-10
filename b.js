@@ -2,7 +2,7 @@
 
 import { AMixin } from './a';
 
-const ABMixin = (superclass: Class<*>): Class<*> => class extends AMixin(superclass) {
+const ABMixin = (superclass: *): * => class extends AMixin(superclass) {
     bMethod() {}
 };
 
