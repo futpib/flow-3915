@@ -1,0 +1,19 @@
+[ignore]
+.*/node_modules/stylelint/.*
+.*/node_modules/drmonty-datatables-plugins/.*
+.*/node_modules/gulp-flowtype-opensrcken/.*
+
+[include]
+
+[libs]
+
+[options]
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=modules
+
+module.name_mapper.extension='html' -> 'types/html-stub'
+
+module.ignore_non_literal_requires=true
+
+unsafe.enable_getters_and_setters=true
+
